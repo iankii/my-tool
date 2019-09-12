@@ -1,0 +1,85 @@
+h1, p {
+  font-family: Lato;
+}
+
+button {
+  margin: 5px 5px 5px 0;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+form, .implied-volatility {
+  padding: 15px;
+}
+
+.implied-volatility {
+  margin: 10px 0 50px 0;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+
+.strike-price-column {
+  border: 1px solid black;
+  margin: 5px 0;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+header {
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  padding: 5px;
+  margin: 0 0 10px;
+}
+
+.implied-volatility .iv-fields {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+
+
+.implied-volatility .title {
+  font-weight: bold;
+}
+
+.active {
+  background-color: lightskyblue;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
